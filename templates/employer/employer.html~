@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Perfil del reclutador</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    
+    <!-- universal styles -->
+    <link href="../universal.css" re="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="employer.css" rel="stylesheet">
+    <link href="../profiles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="row">
+      <header class="myName navbar-header navbar-fixed-top" role="banner">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-9">
+	      <div class="navbar-brand">Ismael Rocabado</div>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#" class="thumbnail">
+		<img src="../img/tongue.png"
+		     alt="logo" 
+		     class="myName img-rounded img-responsive">
+	      </a>
+	    </div>
+	  </div>	  
+      </header>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+	<div class="container"> CONTENIDO! </div>
+      </div>
+      <div class="col-md-3">
+	<nav class="navbar navbar-default navbar-fixed-left">
+	  <div class="navbar-header">all your base</div>
+	</nav>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

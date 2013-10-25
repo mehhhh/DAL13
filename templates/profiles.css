@@ -1,0 +1,195 @@
+.name-header, .name-container
+{
+    vertical-align:bottom;
+    width:100%;
+    height:160px;
+}
+.name-container
+{
+    background-color:10%10%10%;
+ }
+
+.name
+{
+    font-size:4em;
+    margin:5% 10% 10% 10%;
+}
+.name-image-container
+{
+    text-align:center;
+}
+
+.name-image
+{
+    height:150px;
+    width:auto;
+}
+
+.curriculum
+{
+    margin:0 0% 3% 10%;
+}
+body
+{
+    min-height:2000px;
+    padding-top:180px;
+}
+p
+{
+    font-size:0.9em;
+    text-align:justify;
+}
+.subject-description
+{
+    height:100%;
+    width:100%;
+    margin-top:-25px;
+}
+.subject-description-content
+{
+    margin:20px 20px 20px 20px;
+}
+.tags
+{
+    size:100%;
+}
+.image-tags
+{}
+.image-tags-container
+{
+    text-align:center;
+}
+.image-tags-container h2
+{
+    text-align:left;
+}
+.business-body
+{
+    padding:20px;
+}
+
+.business-detail
+{
+    width:100%;
+    font-size:1.2em;
+}
+
+.business-abstract
+{
+    %position:relative;
+    width:40%;
+    padding:1%;
+    height:100%;
+}
+
+.business-abstract-img
+{
+    height:auto;
+    max-height:150px;
+    width:auto;
+}
+.business-abstract-img, .wanted-img
+{
+    margin:0 auto;
+}
+
+.wanted-img
+{
+    height:200px;
+    max-height:200px;
+}
+
+.business-abstract-img-container, .map-container
+{
+    text-align:center;
+    padding:2%;
+}
+
+.business-abstract-data-container
+{
+    align:center;
+}
+
+.single-tag-container
+{
+    padding:0;
+    margin:0;
+}
+
+.employer-tag
+{
+    max-width:50px;
+}
+info-label, info-content
+{
+    text-align:left;
+    align:left;
+    word-wrap:break-word;
+}
+info-label, .business-abstract .image-tags-container
+{
+    margin-left:30%;
+}
+
+info-label
+{
+    font-weight:bolder;
+}
+
+info-content
+{
+    margin-left:35%;
+}
+.offer
+{
+    margin: 10px;
+}
+.business-name
+{
+    text-align:center;
+    font-size:5em;
+}
+.wanted-image-container
+{
+    text-align:center;
+}
+.wanted-poster
+{
+    text-align:center;
+}
+body.wanted-poster
+{
+    padding-top:0;
+    min-height:0;
+}
+quantity-wanted
+{
+    font-size:2em;
+}
+wanted-job
+{
+   font-size:5em;
+   margin:0;
+}
+.skills-expected
+{
+    
+}
+.skills-needed
+{}
+
+.wanted-profile
+{
+    margin:1%;
+}
+
+.image-tags-container
+{
+    align:center;
+}
+
+.employers-container
+{
+    align:center;
+    text-align:center;
+}

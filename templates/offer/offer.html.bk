@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Wanted</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+
+    <!-- JQuery and plugins -->
+    <script src="../components/jquery.js"
+	    type="text/javascript"></script>
+    <script src="../components/bootstrap/js/button.js"
+	    type="text/javascript"></script>
+    <script src="../components/plugins/tagsinput/bootstrap-tagsinput.js"
+	    type="text/javascript"></script>
+    
+    <!-- bootstrap core CSS -->
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../components/bootstrap/assets/css/docs.css">
+    <!-- page style -->
+    <link rel="stylesheet" href="offer.css">
+    <!-- some extra styles  -->
+    <link rel="stylesheet" href="../styles/boxes.css">
+    <link rel="stylesheet" href="../styles/labels.css">
+    <link rel="stylesheet" href="../components/plugins/tagsinput/bootstrap-tagsinput.css">
+
+    <!-- var needed to show an offer -->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+	<h1 class="text-muted">Marca Patito</h1>
+      </div>
+      <div class="jumbotron">
+	<a href="#">
+	  <img src="../img/duck.png" 
+	       alt="logo" 
+	       class="img-rounded wantedImg img-responsive">
+	</a>
+	<h2> Está Buscando </h2>
+	<p>0</p>
+	<h1> Esclavos </h1>
+	<button type="button" class="btn btn-primary"> Aplicar </button>
+      </div>
+      <div class="row marketing">
+	<div class="col-lg-6">
+	  <h4>Aprenderás</h4>
+	  <input type="text" value="picar piedra, manejar picotas" data-role="tagsinput"/>
+	</div>
+	<div class="col-lg-6">
+	  <h4>Necesitas saber</h4>
+	  <input type="text" value="sumisión, obediencia" data-role="tagsinput"/>
+	</div>
+	<!-- i need a plugin, like the ones on the "friends" group on facebook -->
+	<h4>Comunícate con:</h4>
+	<input type="text" data-role="tagsinput"/>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Perfil de la Empresa</title>
+
+    <!-- tagsinput -->
+    <script src="../components/jquery.js"></script>
+    <script src="../components/plugins/tagsinput/bootstrap-tagsinput.js"></script>
+    <link href="../components/plugins/tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- universal styles -->
+    <link href="../universal.css" re="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../profiles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<script src="../../assets/js/html5shiv.js"></script>
+	<script src="../../assets/js/respond.min.js"></script>
+	<![endif]-->
+  </head>
+
+  <body class="business-body">
+
+    <div class="row">
+      <div class="col-md-5 col-xs-5">
+	<div class="navbar navbar-default bs-sidebar hidden-print affix business-abstract" role="complementary">
+	  <div class="container business-abstract-img-container">
+	    <img src="../img/duck.png" 
+		 alt="logo" 
+		 class="img-rounded thumbnail img-responsive business-abstract-img">
+	  </div>
+	  <div class="container business-abstract-data-container">
+	    <p>
+	      <info-label>Sitio Web:</info-label><br/>
+	      <info-content>
+		<a href="http://duckduckgo.com">duck duck go!</a>
+	      </info-content><br/>
+	      <info-label> Teléfono:</info-label><br/>
+	      <info-content>
+		00 583 928395720
+	      </info-content><br/>
+	      <info-label>Dirección</info-label><br/>
+	      <info-content>
+		xxxxxxxxxxxxxxxxxxxxxxxxxx
+	      </info-content>
+	    </p>
+	  </div>
+	  <div class="map-container">
+	    <img src="../img/map.png"
+		 alt="mapa"
+		 class="img-rounded thumbnail img-responsive business-abstract-img">
+	  </div>
+	  
+	  <div class="container image-tags-container">
+	    <h2>Reclutadores</h2>
+	    <div class="row">
+	      <div class="col-md-2 single-tag-container">
+		<img src="../img/tongue.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </div>
+	      <div class="col-md-2 single-tag-container">
+		<img src="../img/mute.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </div>
+	      <div class="col-md-2 single-tag-container">
+		<img src="../img/XD.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <div class="col-md-7 col-xs-7">
+	<div class="business-detail jumbotron">
+	  <div class="business-detail-description">
+	    <h1>Marca Patito</h1>
+	    <p class="container"> Vivamus cursus varius lorem et pulvinar. Cras laoreet mollis imperdiet. Quisque quis neque at velit suscipit tristique et quis sapien. Sed magna sem, tempor volutpat lorem elementum, convallis vulputate arcu. Sed in neque odio. In pretium tellus quis rutrum pellentesque. Fusce dapibus elit ac rhoncus iaculis. Donec neque quam, tincidunt id interdum sed, sagittis non nunc. Donec at tempus velit. Aenean magna odio, euismod suscipit nunc a, convallis cursus odio. Sed lobortis velit imperdiet faucibus blandit. In convallis velit ut nibh gravida lacinia. Vivamus dui mi, congue non orci imperdiet, varius dictum neque. Nulla dictum tristique diam eget consequat. Ut pulvinar, metus in iaculis bibendum, arcu orci venenatis lectus, eget lobortis orci diam quis velit. Nunc non massa sem.</p>
+	  </div>
+	</div>
+	<h2>Está buscando</h2>
+	<div class="business-offers-container row container">
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	  <div class="offer col-md-2">
+	    <a href="../offer/offer.html">Esclavos</a>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+	 ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../components/bootstrap/assets/js/jquery.js"></script>
+    <script src="../components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

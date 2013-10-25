@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Perfil del reclutador</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- universal styles -->
+    <link href="../universal.css" re="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../profiles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="row">
+      <header class="name-header navbar-header navbar-fixed-top" role="banner">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-9 name-container">
+	      <div class="name navbar-brand">Ismael Rocabado</div>
+	    </div>
+	    <div class="col-md-3">
+	      <img src="../img/tongue.png"
+		   alt="logo" 
+		   class="name-container-image img-rounded img-responsive">
+	    </div>	  
+	  </div>
+	</div>	  
+      </header>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+	<div class="container curriculum">Es: </div>
+	<div class="jumbotron container curriculum"></div>
+	<div class="container curriculum">Recluta En: </div>
+	
+      </div>
+      <div class="col-md-3">
+	<nav class="navbar navbar-default navbar-fixed-left">
+	  <div class="navbar-header additional-information">all your base</div>
+	</nav>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

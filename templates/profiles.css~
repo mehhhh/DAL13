@@ -1,0 +1,17 @@
+.myName
+{
+    height:200px;
+    position:relative;
+    width: 100%;
+}
+
+headImg
+{
+    height:20px;
+    width:auto;
+}
+
+.imgContainer
+{
+    height: 100px;
+}

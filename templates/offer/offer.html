@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Wanted</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+
+    <!-- JQuery and plugins -->
+    <script src="../components/jquery.js"
+	    type="text/javascript"></script>
+    <script src="../components/bootstrap/js/button.js"
+	    type="text/javascript"></script>
+    <script src="../components/plugins/tagsinput/bootstrap-tagsinput.js"
+	    type="text/javascript"></script>
+    
+    <!-- bootstrap core CSS -->
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css">
+    <!-- some extra styles  -->
+    <link rel="stylesheet" href="../components/plugins/tagsinput/bootstrap-tagsinput.css">
+    <!-- self styles -->
+    <link rel="stylesheet" href="../profiles.css">
+
+  </head>
+
+  <body class="wanted-poster">
+    <div class="wanted-poster">
+      <div class="header business-name-container">
+	<h1 class="business-name">Marca Patito</h1>
+      </div>
+      <div class="wanted-img-container">
+	<img src="../img/duck.png" 
+	     alt="logo" 
+	     class="img-rounded thumbnail img-responsive wanted-img">
+      </div>
+    </div>
+    <div class="wanted-label">
+      <h2> Está Buscando </h2>
+      <quantity-wanted>0x<br/></quantity-wanted><wanted-job>Esclavos</wanted-job>
+    </div> <!-- wanted-label -->
+
+    <div class="row wanted-profile"> <!-- wanted profile -->
+      <div class="col-md-6 skills-expected student-skills-wanna-learn">
+	<h4>Aprenderás</h4>
+	<input type="text" value="picar piedra, manejar picotas" data-role="tagsinput"/>
+      </div> <!-- end of skills expected -->
+      <div class="col-md-6 student-skills-already-know">
+	<h4>Necesitas saber</h4>
+	<input type="text" value="sumisión, obediencia" data-role="tagsinput"/>
+      </div>
+      <h4>Comunícate con:</h4>
+      <div class="row employers-container">
+	<div class="col-md-4">
+	</div>
+	<div class="container image-tags-container col-md-4">
+	  <div class="row">
+	    <div class="col-md-2 single-tag-container">
+	      <a href="../employer/employer.html">
+		<img src="../img/tongue.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </a>
+	    </div>
+	    <div class="col-md-2 single-tag-container">
+	      <a href="../employer/employer.html">
+		<img src="../img/mute.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </a>
+	    </div>
+	    <div class="col-md-2 single-tag-container">
+	      <a href="../employer/employer.html">		
+		<img src="../img/XD.png"
+		     alt=":P"
+		     class="img-rounded thumbnail img-responsive employer-tag">
+	      </a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
