@@ -6,12 +6,13 @@
 }
 .name-container
 {
-    background-color:10%10%10%;
- }
+    background-color:rgb(87, 140, 220);
+}
 
 .name
 {
     font-size:4em;
+    color:black;
     margin:5% 10% 10% 10%;
 }
 .name-image-container
@@ -31,7 +32,6 @@
 }
 body
 {
-    min-height:2000px;
     padding-top:180px;
 }
 p
@@ -44,14 +44,28 @@ p
     height:100%;
     width:100%;
     margin-top:-25px;
+    background-color:black;
 }
 .subject-description-content
 {
     margin:20px 20px 20px 20px;
+    color:white;
 }
 .tags
 {
     size:100%;
+}
+.offer-tag-available
+{
+    background-image:url('img/vertical-black.png');
+}
+.offer-tag-taken
+{
+    background-image:url('img/vertical-blue.png');
+    background-size: 100%;
+    height:54px;
+    vertical-align:text-center;
+    text-align:center;
 }
 .image-tags
 {}
@@ -156,6 +170,7 @@ info-content
 .wanted-poster
 {
     text-align:center;
+    background-image:"";
 }
 body.wanted-poster
 {
@@ -176,7 +191,9 @@ wanted-job
     
 }
 .skills-needed
-{}
+{
+
+}
 
 .wanted-profile
 {
