@@ -1,4 +1,12 @@
 Wanted::Application.routes.draw do
+
+  resources :skills
+  resources :students
+  resources :businesses
+  resources :recruiters
+  resources :offers
+
+  root to: "welcome#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
