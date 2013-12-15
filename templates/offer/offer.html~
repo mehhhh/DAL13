@@ -17,9 +17,9 @@
   </head>
 
   <body class="offer">
-    <button class="logo-container btn">
+    <span class="logo-container">
        <img src="../img/logo.svg" class="logo img-responsive"> 
-    </button>
+    </span>
     <div class="business-name">
       Marca Patito
     </div>
@@ -32,7 +32,7 @@
     <div class="job-name">
       Esclavos
     </div>
-    <button class="btn button-piece">Aplicar</button>
+    <button class="btn button">Aplicar</button>
     <h2>Aprenderás</h2>
     <div class="skills">
       <button class="piece btn">Minería Avanzada</button>
@@ -46,21 +46,10 @@
     </div>
 
     <h2>Comunícate con: </h2>
-    <div class="logo-list">
+    <div class="logo-list row">
        <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
        <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
        <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-    </div>
-
-    <h2>También han aplicado </h2>
-    <div class="logo-list">
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
-      <button class="logo-container btn"> <img src="../img/logo.svg" class="mini-logo img-responsive"> </button>
     </div>
 
   </body>

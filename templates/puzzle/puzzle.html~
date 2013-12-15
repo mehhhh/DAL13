@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="huh?" />
+    <meta name="author" content="mehhhh" />
+    
+    <title>Reclutador</title>
+
+    <!-- tagsinput -->
+    <script src="../components/jquery.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" />
+    <!-- the style -->
+    <link rel="stylesheet" href="../jigsaw.css" type="text/css" media="screen" />
+  </head>
+
+  <body class="pinned-header">
+
+    <div class="row navbar-fixed-top fixed-skeleton">
+      <!-- name container -->
+      <div class="col-sm-10 name-container">
+	<!-- THERE GOES THE NAME -->
+	largename secondname lastname secondlastname
+      </div> 
+      <!-- end of name container -->
+
+      <!-- right sidebar -->
+      <div class="col-sm-2 right-sidebar">
+	<div class="logo-container">
+	  <img src="../img/logo.svg" class="logo img-responsive"> 
+	</div>
+	
+	<div class="sdata-container">
+	  standard data
+	</div>
+	
+      </div>
+      <!-- end of right sidebar -->
+    </div>
+    <!-- end of row -->     
+
+    <div class="row container">
+      <div class="col-sm-10 content-container">
+	<!-- THERE GOES THE CONTENT -->		
+	
+	<h2>Es...</h2>
+	<div class="about-me well">
+	  <!-- THERE GOES A DESCRIPTION ABOUT THE EMPLOYER -->
+	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in elit pretium, ornare est id, interdum est. Vivamus eu condimentum erat, eget imperdiet quam. Maecenas ultricies orci vel aliquet porta. Cras luctus molestie ante id malesuada. Cras sed pulvinar mauris, sed eleifend nisi. Curabitur consequat nisl sapien, eget facilisis elit dapibus varius. Praesent dapibus urna dui, vitae dapibus mi ultrices sit amet. Phasellus consectetur est sit amet lorem bibendum scelerisque.</p>
+
+      <p>Aliquam ut accumsan mauris. Mauris vestibulum tempor purus, eget auctor mauris imperdiet id. Duis aliquam lectus vel nisi congue elementum. Ut tincidunt vehicula arcu id adipiscing. Maecenas bibendum lorem est, et convallis quam tempus ac. Curabitur consequat purus non quam mollis imperdiet. Mauris purus sapien, eleifend at eleifend et, faucibus eu nulla. Praesent euismod eu mi ut malesuada.</p>
+
+	</div>
+	
+	<!-- wants/has section -->
+	<h2>Recluta para...</h2>
+	<div class="skills-container well wants-has-section">
+	  <img src="../img/logo.svg" class="logo img-responsive"> <br/>
+	  <img src="../img/logo.svg" class="logo img-responsive"> 
+	</div>
+	
+      </div> <!-- content container -->
+      
+    </div>
+</body>
+
+</html>

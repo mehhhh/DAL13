@@ -1,0 +1,162 @@
+body{
+    padding:1%;
+}
+.business-name{
+    font-size:4em;
+}
+
+.skills{
+    padding:10px;
+}
+body.offer{
+    text-align:center;
+    padding-top:2em;
+}
+
+.mini-logo{
+    background-color:#335395;
+    width:90px;
+    height:auto;
+    margin:10px auto;
+    padding:5px;
+}
+
+button.logo-container{
+    margin:1%;
+}
+
+
+
+.about-me{
+    height: 10em auto;
+    width:100%;
+    background-repeat:no-repeat;
+    background-color:white;
+}
+
+.button-piece{
+    font-size:3.2em;
+    background-image:url("img/black-piece.svg");
+    min-width:250px;
+}
+
+.job-name{
+    font-size:5em;
+}
+
+.piece{
+    background-image: url("img/blue-piece.svg");
+    min-width:110px;
+}
+
+.piece, .button-piece, .button-piece:hover, .button-piece:focus, .piece:hover, .piece:focus{
+    background-color:transparent;
+    padding:2%;
+    padding-left:2%;
+    padding-right:2%;    
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color:none;
+    margin:15px;
+    color:white;
+    white-space:nowrap;
+}
+
+.button-piece:hover, .button-piece:focus, .piece:hover, .piece:focus{
+    background-image:url("img/selected-piece.svg");
+}
+
+.wants-has-section{
+    background-color:white;
+}
+
+.reality, .expectative, .skills{
+
+}
+
+.reality, .expectative{
+    text-align:left;
+}
+
+body.pinned-header{
+    padding-top:6em;
+}
+
+body{
+    background-image: url("img/pieces.svg");
+    background-attachment:fixed;
+    background-repeat:repeat;
+    padding-left:5%;
+}
+
+.name-container{
+    %background-color:#151515;
+    background-color:#335395;
+    color:white;
+    font-size:3.2em;
+    padding-left:2%;
+}
+
+.logo-container{
+    background-color: #335395;
+}
+
+.logo{
+    padding:5px;
+    height:auto;
+    background-color:#335395;
+    margin:0 auto;
+}
+
+.sdata-container{
+}
+
+.right-sidebar{
+    padding-left:0;
+}
+.left-sidebar{
+    padding-right:0
+}
+
+.content-container{
+    text-align:justify;
+}
+
+@media (max-width: 768px){
+    .content-container{
+	padding-right:15%;
+    }
+    .sdata-container{
+	position:static;
+    }
+    .fixed-skeleton{
+	position:static;
+	text-align:center;
+    }
+    .logo{
+	padding:0;
+    }
+    .piece, .piece:hover, .piece:focus{
+	padding:5%;
+    }
+    body.pinned-header{
+	padding-top:0;
+    }
+    h2, h3{
+	font-size:2em;
+    }
+    .job-name, .business-name{
+	font-size:3em;
+    }
+}
+
+.business-container{
+    text-align:center;
+}
+.big-logo{
+    width:100%;
+}
+
+.name-container{
+    margin:0;
+}

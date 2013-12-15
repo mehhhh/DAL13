@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="huh?" />
+    <meta name="author" content="mehhhh" />
+    
+    <title>Pieza</title>
+
+    <!-- tagsinput -->
+    <script src="../components/jquery.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" />
+    <!-- the style -->
+    <link rel="stylesheet" href="../jigsaw.css" type="text/css" media="screen" />
+  </head>
+
+  <body class="pinned-header">
+
+    <div class="row navbar-fixed-top fixed-skeleton">
+      <!-- name container -->
+      <div class="col-sm-10 name-container">
+	<!-- THERE GOES THE NAME -->
+	name
+      </div> 
+      <!-- end of name container -->
+
+      <!-- right sidebar -->
+      <div class="col-sm-2 right-sidebar">
+	<div class="logo-container">
+	  <img src="../img/logo.svg" class="logo img-responsive"> 
+	</div>
+	
+	<div class="sdata-container">
+	  standard data
+	</div>
+	
+      </div>
+      <!-- end of right sidebar -->
+    </div>
+    <!-- end of row -->     
+
+    <div class="row container">
+      <div class="col-sm-10 content-container">
+	<!-- THERE GOES THE CONTENT -->		
+	
+	<h2>Es...</h2>
+	<div class="about-me well">
+	  <!-- THERE GOES A DESCRIPTION ABOUT THE USER -->
+	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in elit pretium, ornare est id, interdum est. Vivamus eu condimentum erat, eget imperdiet quam. Maecenas ultricies orci vel aliquet porta. Cras luctus molestie ante id malesuada. Cras sed pulvinar mauris, sed eleifend nisi. Curabitur consequat nisl sapien, eget facilisis elit dapibus varius. Praesent dapibus urna dui, vitae dapibus mi ultrices sit amet. Phasellus consectetur est sit amet lorem bibendum scelerisque.</p>
+
+      <p>Aliquam ut accumsan mauris. Mauris vestibulum tempor purus, eget auctor mauris imperdiet id. Duis aliquam lectus vel nisi congue elementum. Ut tincidunt vehicula arcu id adipiscing. Maecenas bibendum lorem est, et convallis quam tempus ac. Curabitur consequat purus non quam mollis imperdiet. Mauris purus sapien, eleifend at eleifend et, faucibus eu nulla. Praesent euismod eu mi ut malesuada.</p>
+
+	</div>
+	
+	<!-- wants/has section -->
+	<div class="wants-has-section-container">
+	  
+	  <!-- skills of the user -->
+	  <div class="skills-container well wants-has-section"> 
+	    <h3>Sabe...</h3>
+	    <div class="reality">
+	      <!-- skills that the user has -->	      
+	      <button class="piece btn">Walk</button>
+	      <button class="piece btn">Eat</button>
+	      <button class="piece btn">Spit milk from the Nose</button>
+	    </div>
+	    <h3>Quisiera saber...</h3>
+	    <div class="expectative">
+	      <!-- skills that the user wants -->
+	      <button class="piece btn">Moonwalk</button>
+	      <button class="piece btn">Fly</button>
+	    </div>
+	  </div>
+
+	  <!-- projects -->
+	  <div class="skills-container well wants-has-section"> 
+	    <h3>Hizo...</h3>
+	    <div class="reality">
+	      <!-- skills that the user has -->	      
+	      <button class="piece btn">Dominacion Mundial</button> 
+	      <button class="piece btn">Ruina Inevitable I</button> 
+	      <button class="piece btn">Ruina Inevitable II</button>
+	    </div>
+	    <h3>Planea hacer...</h3>
+	    <div class="expectative">
+	      <!-- skills that the user wants -->
+	      <button class="piece btn">Plant a Tree</button>
+	    </div>
+	  </div>
+	  
+	  <!-- Events -->
+	  <div class="skills-container well wants-has-section"> 
+	    <h3>Participó en...</h3>
+	    <div class="reality">
+	      <!-- skills that the user has -->	      
+	      <button class="piece btn">Invocacion de C'thulu<br/> 2012</button>
+	    </div>
+	    <h3>Quiere ir a...</h3>
+	    <div class="expectative">
+	      <!-- skills that the user wants -->
+	      <button class="piece btn">Blizzcon</button>
+	    </div>
+	  </div>
+
+	  <div class="well wants-has-section">
+	    <div class="reality">
+	      <h3>Trabajó en...</h3>
+	      <div class="logo-list">
+		<button class="logo-container btn"> <img src="../img/logo.svg" class="img-responsive mini-logo"> </button>
+		<button class="logo-container btn"> <img src="../img/logo.svg" class="img-responsive mini-logo"> </button>
+		<button class="logo-container btn"> <img src="../img/logo.svg" class="img-responsive mini-logo"> </button>
+		
+	      </div>
+	    </div>
+	    <div class="expectative">
+	      <h3>Quisiera trabajar en...</h3>
+	      <button class="logo-container btn"> <img src="../img/logo.svg" class="img-responsive mini-logo"> </button>
+	    </div>
+	  </div>
+
+	</div>
+	
+      </div> <!-- content container -->
+      
+    </div>
+</body>
+
+</html>
